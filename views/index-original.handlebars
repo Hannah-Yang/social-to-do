@@ -1,0 +1,41 @@
+<h1>Social todo app for cpsc113</h1>
+
+{{#if errors}}
+<ul style="color:red" class="errors">
+  {{#each errors}}
+    {{this}}
+  {{/each}}
+</div>
+{{/if}}
+
+{{#if currentUser}}
+    <h2 class="welcome">Welcome, {{currentUser.name}}</h2>
+    <div>
+        <h4>Your Tasks</h4>
+
+        {{#if tasks}}
+            <ul class="tasks">
+            {{#each tasks}}
+            {{/each}}
+            </ul>
+        {{else}}
+            No tasks to show!
+        {{/if}}
+    </div>
+    <hr>
+    <div>
+        <h4>Add a new task</h4>
+        </form>
+    </div>
+
+{{else}}
+<div>
+  Login
+</div>
+
+<div><hr></div>
+
+<div>
+  Register
+</div>
+{{/if}}

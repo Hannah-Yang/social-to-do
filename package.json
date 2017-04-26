@@ -1,0 +1,42 @@
+{
+  "name": "social-todo-express",
+  "version": "1.0.0",
+  "description": "my assignment for class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,json,html,handlebars  ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kljensen/cpsc113-social-todo-node.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/kljensen/cpsc113-social-todo-node/issues"
+  },
+  "homepage": "https://github.com/kljensen/cpsc113-social-todo-node#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.2",
+    "connect-mongodb-session": "^1.1.0",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.13.0",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.3.7",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "validator": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
